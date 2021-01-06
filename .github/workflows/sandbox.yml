@@ -6,4 +6,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: env | grep GITHUB_
+      - run: env | grep GITHUB_ | sort
